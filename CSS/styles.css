@@ -1,0 +1,30 @@
+.contenedor-flexible
+{
+    background-color: lightgreen;
+    padding: 20px;
+    display: flex;
+    /*por defecto es row, flex-direction*/
+    /*flex-direction: row;*/
+    /*5,4,3,2,1 se ordena de atras hacia adelante con espacio incluido*/
+    /*flex-direction: row-reverse;*/
+    /*sino especificas el width y el height asume el del navegador*/
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+
+    /*Con esto se respeta el ancho de las cajas*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 400px;
+    
+
+
+}
+
+.itemflexible
+{  background-color: cyan;
+    margin: 5px;
+    font-size: 30px;
+    /*pueden modificar su tamaño, ancho y alto*/
+    width: 100px;
+    align-items: center;
+}
